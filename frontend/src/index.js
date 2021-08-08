@@ -8,7 +8,7 @@ import {io} from "../node_modules/socket.io-client";
 import audio from "./assets/message.mp3";
 const name1 = prompt("Enter your name ");
 
-const socket = io("http://localhost:8000");
+const socket = io("https://guarded-falls-33664.herokuapp.com/");
 const form = document.getElementById("form-container");
 const messageInput = document.querySelector(".input-msg");
 const messageContainer = document.querySelector(".conversation-container");
