@@ -5,10 +5,10 @@ var http = require('http');
 var app = express();
 var server = http.createServer(app).listen(process.env.PORT || 8000);;
 var cors = require('cors');
-app.use(cors({origin: 'https://akhil-warta.netlif'}));
+app.use(cors({origin: 'http://akhil-warta.netlify.app'}));
 const io = require('socket.io')(server,{
     cors: {
-        origin: 'https://akhil-warta.netlif'
+        origin: 'http://akhil-warta.netlify.app'
         // origin: 'http://127.0.0.1:5500' 
        // header: ('Access-Control-Allow-Origin', "*")
     }
