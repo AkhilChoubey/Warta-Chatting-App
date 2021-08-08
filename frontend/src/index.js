@@ -6,6 +6,7 @@ import Recieved from "./Components/Recieved";
 import Others from "./Components/Others";
 import {io} from "../node_modules/socket.io-client";
 import audio from "./assets/message.mp3";
+
 const name1 = prompt("Enter your name ");
 
 const socket = io("https://guarded-falls-33664.herokuapp.com/");
