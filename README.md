@@ -1,5 +1,5 @@
 # Warta-Chatting-App
-This is a multi-client chatting App built using ReactJS and NodeJS. <br>
+This is a multi-client chatting App. <br>
 -Create rooms <br>
 -Share room name with chatmate. <br>
 -Get started with the conversation. <br>
